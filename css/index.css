@@ -1,0 +1,186 @@
+h1
+{
+    text-align:center;
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+    #left
+    {
+        background: #e5eCf9;
+    }
+
+
+    #right
+    {
+        background: #ffffff;
+        display: none;
+
+    }
+
+    h1
+    {
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 1029px){
+    #left
+    {
+        position: absolute;
+        left:0px;
+        width: 300px;
+        height: 100%;
+        top: 60px;
+        background: #e5eCf9;
+    }
+
+
+    #right
+    {
+        position: absolute;
+        left:300px ;
+        right: 10px;
+        top:60px;
+        height: 100%;
+        background: #ffffff;
+
+    }
+
+    h1
+    {
+        font-size: 32px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 1024px){
+
+    #left
+    {
+        background: #e5eCf9;
+    }
+
+
+    #right
+    {
+        background: #ffffff;
+
+    }
+
+    h1
+    {
+        font-size: 15px;
+    }
+}
+
+#newAdd
+{
+    font-weight: bold;
+    color: red;
+    font-size: 18px;
+}
+
+
+#projAdd
+{
+    background: #E6EFC2;
+    display: none;
+}
+#popreport
+{
+    text-align:center;
+    color: #ff0000;
+    display: none;
+}
+#popproject
+{
+    text-align:center;
+    color: #ff0000;
+    display: none;
+}
+
+#proj
+{
+    width: 116px;
+}
+#detail
+{
+    width: 254px;
+    height: 60px;
+}
+
+#projLink
+{
+    width: 254px;
+}
+
+#projShow
+{
+    text-align: left;
+}
+
+#hint
+{
+    text-align:center;
+    color:#0000ff;
+    display:block;
+}
+
+#unfinished
+{
+
+    color:#ff0000;
+    text-align:left;
+}
+
+
+
+
+body {
+    /*color: #4f6b72;*/
+    /*background: #E6EAE9;*/
+}
+
+a {
+    color: #c75f3e;
+}
+.datatable{
+    border: 1px solid #D6DDE6;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.datatable td, .datatable th{
+
+    border: 1px solid gray;
+    text-align: left;
+    padding: 0.2em;
+}
+
+.datatable th{
+    border: 1px solid #828282;
+    background-color: gray;
+    font-weight: bold;
+    text-align: left;
+    padding: 0.2em;
+
+}
+
+.datatable caption{
+    font: bold 120% "宋体";
+    background: #B0C4DE;
+    color: #33517A;
+    padding: 0.4em 0 0.3em 0;
+    border: 1px solid #789AC6;
+
+
+}
+
+.datatable tr:hover{
+
+    background-color: #DEF7F2;
+    color: #000000;
+}
